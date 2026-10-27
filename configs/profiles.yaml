@@ -1,0 +1,18 @@
+# Computational profiles. "paper" uses the settings of Section 4.1.
+paper: {}
+fast:
+  n_samples: 16
+  n_candidates: 1024
+  n_active: 96
+  n_fit: 64
+  n_virtual: 48
+  fit_maxiter: 50
+smoke:
+  n_samples: 8
+  n_candidates: 256
+  n_active: 48
+  n_fit: 32
+  n_virtual: 16
+  fit_maxiter: 15
+  refit_every: 3
+  ea_offspring: 16

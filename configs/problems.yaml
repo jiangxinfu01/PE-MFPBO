@@ -1,0 +1,7 @@
+# Budget (high-fidelity equivalents) and nested initial design (level 1, 2, 3)
+laminate:      {budget: 120.0, init: [40, 12, 4]}
+polypropylene: {budget: 90.0,  init: [32, 10, 3]}
+mf_zdt1:       {budget: 60.0,  init: [24, 8, 3]}
+mf_zdt3:       {budget: 60.0,  init: [24, 8, 3]}
+mf_dtlz2:      {budget: 60.0,  init: [24, 8, 3]}
+curewarp4:     {budget: 60.0,  init: [24, 8, 3]}

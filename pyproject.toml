@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pemfpbo"
+version = "1.0.0"
+description = "Physics-embedded multi-fidelity Bayesian optimization of polymer formulation and processing"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.9"
+dependencies = ["numpy>=1.24", "scipy>=1.10", "pandas>=1.5", "pyyaml>=6.0", "matplotlib>=3.6"]
+
+[tool.setuptools.packages.find]
+include = ["pemfpbo*"]
